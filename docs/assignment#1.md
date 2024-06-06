@@ -10,12 +10,12 @@ Write a program that shows a multiplication table on the screen:
 
 First the program asks the user for the number of rows and the number of columns. Then the program shows the table on the screen.
 
-> [!IMPORTANT]
+> [!IMPORTANT] 
 > Write two versions of the program. One using a while-loop the other using a for-loop.
 
-> [!TIP]
+> [!TIP] 
 > Start with a program that shows just one line of variable length (depending on the input). Extend this program to show several lines.
 
-> [!NOTE]
+> [!NOTE] 
 > Basic documentation - only the mandatory parts of the documentation are required.
 

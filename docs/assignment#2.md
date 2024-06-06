@@ -12,8 +12,8 @@ Write a program that shows a table of the ASCII-Code ranging from 32 to 127. The
 | .    | .    | .     | .     |
 | 55 7 | 79 O | 103 g | 127   |
 
-> [!TIP] Hint
+> [!TIP] 
 > Use the same basic structure as in exercise 1. Calculate the value to show from the values of the index-variables. To print a character on the screen use %c as format element in the function ```printf("%c", . . . )```.
 
-> [!NOTE] Documentation
+> [!NOTE] 
 >Basic documentation plus program flowchart.
