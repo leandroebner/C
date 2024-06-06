@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int rows, collumns, i;
+int array[];
+
+int main(){
+  
+  printf("Insert amount of row(s):\n");
+  scanf("%d", &rows);
+  printf("Received %d row(s).\nInsert amount of collumn(s):\n", rows);
+  scanf("%d", &collumns);
+  printf("Received %d collumn(s).\n", collumns);
+  
+  while(i <= rows){
+    i++;
+    
+    
+  }
+  
+  
+  
+
+}
