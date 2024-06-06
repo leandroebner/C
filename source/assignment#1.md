@@ -1,5 +1,5 @@
-#Assignment 1
-##Multiplication Table
+# Assignment 1
+## Multiplication Table
 ---
 
 Write a program that shows a multiplication table on the screen:
