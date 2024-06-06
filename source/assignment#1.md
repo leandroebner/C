@@ -16,6 +16,6 @@ First the program asks the user for the number of rows and the number of columns
 > [!TIP]
 > Start with a program that shows just one line of variable length (depending on the input). Extend this program to show several lines.
 
-> [!INFO]
+> [!NOTE]
 > Basic documentation - only the mandatory parts of the documentation are required.
 
