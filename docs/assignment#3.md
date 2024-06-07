@@ -8,3 +8,5 @@ If the value of the integer does not fit into 16 Bits the program reports an err
 
 > [!TIP]
 > The value of an integer is given as follows. Let $X$ be defined by the digits $z_n\ z_{(n-1)}\cdots z_1\ z_0$ with $z\in \{0,1,\cdots 9\}$. The value of $X$ is given by $X=\sum_{i=0}^{i=n}z_i*10^i$. 
+
+
