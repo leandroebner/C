@@ -23,5 +23,4 @@ int main(){
     for(i=0; i < rows; i++){printf("%d  ", array[i]*(j+1));}
     printf("\n");
     }
-  
 }
