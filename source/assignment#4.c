@@ -6,6 +6,9 @@
 float opr1, opr2;
 char optr;
 
+float calculate(char optr, float opr1, float opr2);
+
+
 int main(){
     
     printf("Insert operator...\n");
@@ -14,12 +17,11 @@ int main(){
     scanf("%f", &opr1);
     printf("Received: [%f]! Insert Operand 2...\n", opr1);
     scanf("%f", &opr2);
-    printf("Received: [%f]! \n", opr2);
-    calculate('+', opr1, opr2);
-    
+    printf("Received: [%f]! Result: ", opr2);
+    printf(" --> %f", calculate(optr, opr1, opr2));
 }
 
-float calculate(char optr, float opr1, float opr2){
+float calculate(char optr,float opr1, float opr2){
   
   switch(optr){
     case '+':
@@ -34,7 +36,9 @@ float calculate(char optr, float opr1, float opr2){
     case '/':
       return opr1 / opr2;
       break;
-    //default: printf("Syntax Error: Invalid Operator");
+    default: 
+      printf("<<Syntax Error: Invalid Operator>>");
+      return 0;
   }
 }
 
