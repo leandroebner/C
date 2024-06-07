@@ -13,7 +13,6 @@ int main(){
   }
 }
 
-
 void row(int c){
   
   for(int j=0; j<4; j++){
